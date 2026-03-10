@@ -3,7 +3,7 @@ cask "stave" do
   name "stave"
   desc "Configuration safety evaluation CLI"
   homepage "https://github.com/sufield/stave"
-  version "0.0.2"
+  version "0.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "stave" do
   on_macos do
     on_intel do
       url "https://github.com/sufield/stave/releases/download/v#{version}/stave_v#{version}_darwin_amd64.tar.gz"
-      sha256 "374c03ac4e9d5f9203c85afbeb107d032bddc25d46735d255592d567f0fc5646"
+      sha256 "134c09f53fd3cc03c935ade85823e8cd0adde0b4b26e80dde59d266ddfd0d3a7"
     end
     on_arm do
       url "https://github.com/sufield/stave/releases/download/v#{version}/stave_v#{version}_darwin_arm64.tar.gz"
-      sha256 "a17b75aecad762262d5a068b296fcd1824007105b92c58bf9fee0de4e5a1fc83"
+      sha256 "d46a8e1e277404c53999cda81eb4a0d58aced570861bb892b3e3d6450cf176eb"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sufield/stave/releases/download/v#{version}/stave_v#{version}_linux_amd64.tar.gz"
-      sha256 "075f19a77bb2b0227de2a6ee1859baa9266e56ca30c00efa8acda4ac57f92259"
+      sha256 "c8e69478e9b2a080ff1e57932e27a8de383470c80d7aac427c1e4431edc959f5"
     end
     on_arm do
       url "https://github.com/sufield/stave/releases/download/v#{version}/stave_v#{version}_linux_arm64.tar.gz"
-      sha256 "b32a43e8c72eec5b1306f6f1411bb85a926212ab1097481d326e97bb116cd1e9"
+      sha256 "300921fbe39acf79cbc92d2a35a8ac4f5c8a9acae8c31bf6242ace36d609c3e4"
     end
   end
 
